@@ -141,6 +141,7 @@ class Assignment2:
         return anz_het
     
     def print_summary(self):
+        ## Hier werden alle Methoden aufgerufen und mit einem String versehen, der beschreibt was sie ausgeben.
         print("Average Quality of Son:", self.get_average_quality_of_son())
         print("Total Number of Variants of Son:", self.get_total_number_of_variants_of_son())
         print("Variant Caller:", self.get_variant_caller_of_vcf())
