@@ -142,17 +142,17 @@ class Assignment2:
     
     def print_summary(self):
         ## Hier werden alle Methoden aufgerufen und mit einem String versehen, der beschreibt was sie ausgeben.
-        print("Average Quality of Son:", self.get_average_quality_of_son())
-        print("Total Number of Variants of Son:", self.get_total_number_of_variants_of_son())
-        print("Variant Caller:", self.get_variant_caller_of_vcf())
-        print("Human Reference Version:", self.get_human_reference_version())
-        print("Number of Indels:", self.get_number_of_indels())
-        print("Number of SNVs: ", self.get_number_of_snvs())
-        print("Number of heterozyous variants", self.get_number_of_heterozygous_variants())
+        print("Average Quality of Son:", self.get_average_quality_of_son())                         # 1753.7782222395415
+        print("Total Number of Variants of Son:", self.get_total_number_of_variants_of_son())       # 38526
+        print("Variant Caller:", self.get_variant_caller_of_vcf())                                  # Torrent Variant Caller
+        print("Human Reference Version:", self.get_human_reference_version())                       # hg19
+        print("Number of Indels:", self.get_number_of_indels())                                     # 1823
+        print("Number of SNVs: ", self.get_number_of_snvs())                                        # 36703
+        print("Number of heterozyous variants", self.get_number_of_heterozygous_variants())         # 23819
         
 if __name__ == '__main__':
-    print("Abgabe von:", __author__)
     print("Assignment 2")
+    print("Author:", __author__, "\n")
     assignment1 = Assignment2()
     assignment1.print_summary()
     
